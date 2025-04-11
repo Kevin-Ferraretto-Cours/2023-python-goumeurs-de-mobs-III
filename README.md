@@ -21,7 +21,7 @@ BattleGame est un jeu de rôle textuel développé pour les amateurs de RPG qui 
 git clone https://github.com/Kevin-Ferraretto-Cours/2023-python-goumeurs-de-mobs-III.git
 
 # Accéder au répertoire
-cd battlegame
+cd 2023-python-goumeurs-de-mobs-III
 
 # Installation des dépendances
 pip install -r requirements.txt
