@@ -1,21 +1,46 @@
-# BattleGame - Mini RPG en CLI
+# BattleGame
 
-Bienvenue dans BattleGame, un projet captivant développé en duo qui vous plonge dans un mini-RPG en ligne de commande ! BattleGame vous permet de créer un personnage, de l'équiper d'armes et d'armures, puis de participer à des combats épiques contre des adversaires prérégler ou de défier d'autres joueurs dans des duels tactiques.
+Un mini RPG en ligne de commande (CLI) permettant aux joueurs de créer des personnages, participer à des combats tactiques et défier d'autres joueurs en PvP.
 
-## Aperçu
+## 📋 Description
 
-BattleGame offre une expérience RPG immersive en CLI, où chaque joueur peut créer et personnaliser son personnage.
+BattleGame est un jeu de rôle textuel développé pour les amateurs de RPG qui préfèrent l'environnement en ligne de commande. Ce projet offre une expérience de jeu immersive où les joueurs peuvent personnaliser leurs personnages, acquérir de l'équipement et participer à des combats stratégiques.
 
-## Fonctionnalités
+## ✨ Fonctionnalités
 
-- **Personnalisation du Personnage :** Créez un personnage unique et équipez-le d'armes et d'armures pour améliorer ses compétences et sa puissance.
+- **Création et Personnalisation** - Développez un personnage unique avec ses propres attributs, compétences et équipements
+- **Équipement Stratégique** - Choisissez parmi différentes armes et armures pour optimiser votre style de combat
+- **Combat PvE** - Affrontez des adversaires prédéfinis aux comportements et difficultés variés
+- **Duels PvP** - Défiez d'autres joueurs dans des combats tactiques pour déterminer le champion ultime
+- **Interface CLI intuitive** - Navigation simple et efficace dans une interface textuelle
 
-- **Combats Tactiques :** Participez à des combats en ligne de commande contre des ennemis prédéfinis, en utilisant des stratégies pour sortir victorieux.
+## 🚀 Installation
 
-- **Duels Joueur contre Joueur (PvP) :** Défiez d'autres joueurs dans des duels en CLI pour prouver qui est le véritable champion.
+```bash
+# Cloner le dépôt
+git clone https://github.com/Kevin-Ferraretto-Cours/2023-python-goumeurs-de-mobs-III.git
 
-## Comment Utiliser
+# Accéder au répertoire
+cd battlegame
 
-1. Clonez le repository sur votre machine locale.
-2. Ouvrez une interface en ligne de commande et lancez le jeu.
-3. Créez votre personnage, équipez-le, et lancez-vous dans des batailles épiques en CLI.
+# Installation des dépendances
+pip install -r requirements.txt
+```
+
+## 🎮 Utilisation
+
+```bash
+# Lancer le jeu
+python main.py
+```
+
+## 📈 Roadmap
+
+- Implémentation de classes de personnages supplémentaires
+- Ajout d'un système d'expérience et de progression
+- Développement d'une campagne narrative
+- Intégration d'un système de commerce
+
+## 📜 Licence
+
+Ce projet est distribué sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
